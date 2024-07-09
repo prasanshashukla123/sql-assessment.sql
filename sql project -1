@@ -1,0 +1,23 @@
+create database sales;
+use sales;
+
+select * from sql_assessment;
+
+
+select sum(purch_amt) from sql_assessment;
+
+
+select avg(purch_amt) from sql_assessment;
+
+
+select distinct(salesman_id) from sql_assessment;
+
+select count(distinct(customer_id)) from sql_assessment;
+
+
+select max(purch_amt) from sql_assessment;
+
+
+select min(purch_amt) from sql_assessment;
+
+select (purch_amt) from sql_assessment; 
